@@ -1330,3 +1330,14 @@ width:100%;
 .dropdown-content.show{
     display:block;
 }
+.dropbtn i:last-child{
+
+    transition:.3s;
+
+}
+
+.dropbtn.active i:last-child{
+
+    transform:rotate(180deg);
+
+}
