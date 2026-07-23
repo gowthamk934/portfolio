@@ -33,10 +33,13 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:var(--bg);
+    background:rgba(15,23,42,.75);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(255,255,255,.08);
     z-index:1000;
     box-sizing:border-box;
-    transition:0.3s;
+    transition:.35s;
 }
 
 .logo{
@@ -73,6 +76,13 @@ nav a{
 
 nav a:hover{
     color:var(--primary);
+}
+nav.scrolled{
+
+    padding:18px 80px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.18);
+
 }
 
 /* ===============================
