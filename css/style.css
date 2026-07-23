@@ -1194,53 +1194,51 @@ nav a.active::after{
 /* ===============================
    Professional Quick Links
 ==================================*/
-
 .quick-links{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:18px;
-    flex-wrap:wrap;
+    display:grid;
+    grid-template-columns:repeat(3,170px);
+    gap:15px;
     margin-top:30px;
 }
 
 .quick-links a,
 .dropbtn{
 
+    width:170px;
+    height:60px;
+
     display:flex;
+    justify-content:center;
     align-items:center;
-    gap:8px;
+    gap:10px;
 
-    text-decoration:none;
-
-    background:rgba(255,255,255,.12);
+    background:rgba(255,255,255,.08);
 
     color:#fff;
 
-    padding:12px 18px;
+    text-decoration:none;
 
     border-radius:30px;
 
-    border:1px solid rgba(255,255,255,.18);
-
-    transition:.35s;
+    border:1px solid rgba(255,255,255,.15);
 
     cursor:pointer;
 
-    font-size:15px;
+    transition:.3s;
 
-    backdrop-filter:blur(10px);
+    font-size:18px;
+}
 
+.dropbtn{
+    border:none;
 }
 
 .quick-links a:hover,
 .dropbtn:hover{
 
-    transform:translateY(-3px);
+    background:#29b6f6;
 
-    background:#00bcd4;
-
-    color:white;
+    transform:translateY(-4px);
 
 }
 
@@ -1250,37 +1248,25 @@ nav a.active::after{
 
 }
 
-.dropbtn{
-
-    border:none;
-
-}
-
-.arrow{
-
-    font-size:12px;
-
-}
-
 .dropdown-content{
-
-    position:absolute;
-
-    top:115%;
-
-    left:0;
-
-    min-width:240px;
 
     display:none;
 
-    background:white;
+    position:absolute;
 
-    border-radius:15px;
+    top:65px;
+
+    left:0;
+
+    width:220px;
+
+    background:#fff;
+
+    border-radius:12px;
 
     overflow:hidden;
 
-    box-shadow:0 12px 35px rgba(0,0,0,.2);
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
 
     z-index:999;
 
@@ -1290,21 +1276,26 @@ nav a.active::after{
 
     display:block;
 
-    color:#333;
-
     padding:14px 18px;
+
+    color:#333;
 
     text-decoration:none;
 
-    transition:.3s;
+    width:100%;
+    height:auto;
+
+    border-radius:0;
+
+    background:#fff;
 
 }
 
 .dropdown-content a:hover{
 
-    background:#f4f4f4;
+    background:#f5f5f5;
 
-    color:#00bcd4;
+    color:#29b6f6;
 
     transform:none;
 
@@ -1313,6 +1304,33 @@ nav a.active::after{
 .dropdown:hover .dropdown-content{
 
     display:block;
+
+}
+
+@media(max-width:768px){
+
+.quick-links{
+
+grid-template-columns:repeat(2,170px);
+
+}
+
+}
+
+@media(max-width:500px){
+
+.quick-links{
+
+grid-template-columns:1fr;
+
+}
+
+.quick-links a,
+.dropbtn{
+
+width:100%;
+
+}
 
 }
 /* ===== HERO ACTION CARDS ===== */
