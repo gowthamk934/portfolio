@@ -540,7 +540,6 @@ nav a:hover{
 
 }
 
-
 .timeline-item{
 
     display:flex;
@@ -551,30 +550,32 @@ nav a:hover{
 }
 
 .year{
-    background:rgba(56,189,248,.12);
-    color:#38BDF8;
+
+    background:rgba(37,99,235,.10);
+    color:var(--primary);
     padding:10px 16px;
     border-radius:12px;
     font-weight:700;
+    border:1px solid var(--border);
+
 }
 
 .content{
 
     position:relative;
-    background:#111827;
+    background:var(--surface);
     padding:30px;
     border-radius:15px;
     width:100%;
     transition:.3s;
+    border:1px solid var(--border);
 
 }
-
 
 .content:hover{
 
     transform:translateX(10px);
-
-    box-shadow:0 20px 40px rgba(56,189,248,.20);
+    box-shadow:var(--shadow);
 
 }
 
@@ -582,31 +583,13 @@ nav a:hover{
 
     margin-bottom:8px;
     font-size:28px;
+    color:var(--text);
 
 }
 
 .content p{
 
-    color:#CBD5E1;
-
-}
-@media(max-width:992px){
-
-    .impact-grid{
-
-        grid-template-columns:repeat(2,1fr);
-
-    }
-
-}
-
-@media(max-width:600px){
-
-    .impact-grid{
-
-        grid-template-columns:1fr;
-
-    }
+    color:var(--text-light);
 
 }
 /*==============================
