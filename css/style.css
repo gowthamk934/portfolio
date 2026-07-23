@@ -14,9 +14,8 @@ body{
 
     font-family:'Poppins',sans-serif;
 
-    background:#0F172A;
-
-    color:white;
+   background:var(--bg);
+   color:var(--text);
 
     overflow-x:hidden;
 
@@ -34,7 +33,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#0f172a;
+    background:var(--bg);
     z-index:1000;
     box-sizing:border-box;
     transition:0.3s;
@@ -45,7 +44,7 @@ nav{
     font-size:32px;
     font-weight:800;
     letter-spacing:2px;
-    color:#FFFFFF;
+    color:var(--text);
 
 }
 
@@ -66,7 +65,7 @@ nav ul{
 nav a{
 
     position:relative;
-    color:white;
+    color:var(--text);
     text-decoration:none;
     font-size:17px;
     font-weight:500;
@@ -142,7 +141,7 @@ nav a:hover{
 
     margin-top:30px;
 
-    color:#CBD5E1;
+    color:var(--text-light);
 
     font-size:28px;
 
@@ -165,7 +164,7 @@ nav a:hover{
 
 .primary-btn{
 
-    background:#38BDF8;
+    background:var(--primary);
 
     color:#0F172A;
 
@@ -207,7 +206,7 @@ nav a:hover{
 
 .secondary-btn:hover{
 
-    background:#38BDF8;
+    background:var(--primary);
 
     color:#0F172A;
 
@@ -689,7 +688,7 @@ nav a:hover{
     font-weight:800;
     line-height:1.1;
     margin-bottom:15px;
-    color:#FFFFFF;
+    color:var(--text);
 
 }
 
@@ -706,7 +705,7 @@ nav a:hover{
 .hero-count{
 
     font-size:48px;
-    color:#FFFFFF;
+    color:var(--text);
     margin-bottom:25px;
 
 }
@@ -921,7 +920,7 @@ nav a:hover{
     height:50px;
     border:none;
     border-radius:50%;
-    background:#38BDF8;
+    background:var(--primary);
     color:#0F172A;
     font-size:22px;
     cursor:pointer;
@@ -970,7 +969,7 @@ nav a::after{
     width:0%;
     height:2px;
 
-    background:#38BDF8;
+    background:var(--primary);
 
     transition:.3s;
 
@@ -998,7 +997,7 @@ nav a.active::after{
     width:450px;
     height:450px;
 
-    background:#38BDF8;
+    background:var(--primary);
 
     filter:blur(180px);
 
@@ -1207,7 +1206,7 @@ nav a.active::after{
 .quick-links a:hover,
 .dropbtn:hover{
 
-    background:#29b6f6;
+    background:var(--primary-hover);
 
     transform:translateY(-4px);
 
