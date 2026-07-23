@@ -1301,12 +1301,6 @@ nav a.active::after{
 
 }
 
-.dropdown:hover .dropdown-content{
-
-    display:block;
-
-}
-
 @media(max-width:768px){
 
 .quick-links{
@@ -1332,4 +1326,7 @@ width:100%;
 
 }
 
+}
+.dropdown-content.show{
+    display:block;
 }
