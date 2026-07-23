@@ -319,27 +319,27 @@ nav a:hover{
 
 .impact-card{
 
-    background:#111827;
+    background:var(--surface);
     padding:40px 25px;
     border-radius:18px;
     text-align:center;
     transition:.3s;
-    border:1px solid rgba(255,255,255,.05);
+    border:1px solid var(--border);
 
 }
 
 .impact-card:hover{
 
     transform:translateY(-10px);
-    box-shadow:0 15px 35px rgba(56,189,248,.20);
-    border-color:#38BDF8;
+    box-shadow:var(--shadow);
+    border-color:var(--primary);
 
 }
 
 .impact-card h3{
 
     font-size:48px;
-    color:#38BDF8;
+    color:var(--primary);
     margin-bottom:15px;
 
 }
@@ -347,7 +347,7 @@ nav a:hover{
 .impact-card p{
 
     font-size:20px;
-    color:#CBD5E1;
+    color:var(--text-light);
 
 }
 /*==============================
