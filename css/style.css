@@ -542,13 +542,11 @@ nav a:hover{
 }
 
 .year{
-
-    width:120px;
+    background:rgba(56,189,248,.12);
     color:#38BDF8;
-    font-size:18px;
+    padding:10px 16px;
+    border-radius:12px;
     font-weight:700;
-    text-align:right;
-
 }
 
 .content{
