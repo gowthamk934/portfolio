@@ -791,7 +791,7 @@ nav a:hover{
 
 }
 /*==============================
-    KEY ACHIEVEMENTS
+        ACHIEVEMENTS
 ==============================*/
 
 .achievements{
@@ -803,7 +803,7 @@ nav a:hover{
 .achievement-grid{
 
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:30px;
     margin-top:50px;
 
@@ -811,11 +811,11 @@ nav a:hover{
 
 .achievement-card{
 
-    background:#111827;
-    padding:35px;
+    background:var(--surface);
+    border:1px solid var(--border);
     border-radius:18px;
+    padding:35px;
     text-align:center;
-    border:1px solid rgba(255,255,255,.08);
     transition:.3s;
 
 }
@@ -823,33 +823,31 @@ nav a:hover{
 .achievement-card:hover{
 
     transform:translateY(-8px);
-    border-color:#38BDF8;
-    box-shadow:0 20px 40px rgba(56,189,248,.20);
+    box-shadow:var(--shadow);
+    border-color:var(--primary);
+
+}
+
+.achievement-card i{
+
+    font-size:50px;
+    color:var(--primary);
+    margin-bottom:20px;
 
 }
 
 .achievement-card h3{
 
-    font-size:28px;
-    margin-bottom:20px;
-    color:#38BDF8;
+    font-size:36px;
+    color:var(--text);
+    margin-bottom:10px;
 
 }
 
 .achievement-card p{
 
-    color:#CBD5E1;
-    line-height:1.8;
-
-}
-
-@media(max-width:992px){
-
-    .achievement-grid{
-
-        grid-template-columns:1fr;
-
-    }
+    color:var(--text-light);
+    line-height:1.7;
 
 }
 /*==============================
