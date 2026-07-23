@@ -1111,7 +1111,8 @@ nav a.active::after{
     background:var(--surface);
     border:1px solid var(--border);
     border-radius:20px;
-    padding:45px 30px;
+    padding:35px 25px;
+    min-height:280px;
     transition:.35s;
     text-align:center;
 
@@ -1137,7 +1138,8 @@ nav a.active::after{
     align-items:center;
     justify-content:center;
 
-    background:rgba(59,130,246,.12);
+    background:linear-gradient(135deg,#3B82F6,#2563EB);
+    box-shadow:0 10px 25px rgba(59,130,246,.35);
 
 }
 
