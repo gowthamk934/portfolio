@@ -851,45 +851,64 @@ nav a:hover{
 
 }
 /*==============================
-        FOOTER
+            FOOTER
 ==============================*/
 
-.footer{
+footer{
 
-    padding:60px 20px;
-    text-align:center;
-    background:#0B1120;
-    border-top:1px solid rgba(255,255,255,.08);
-
-}
-
-.footer h2{
-
-    font-size:32px;
-    margin-bottom:10px;
+    background:var(--footer);
+    padding:60px 80px 30px;
+    border-top:1px solid var(--border);
 
 }
 
-.footer p{
+.footer-container{
 
-    color:#94A3B8;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+    margin-bottom:40px;
+
+}
+
+.footer-about h3{
+
+    color:var(--text);
     margin-bottom:20px;
 
 }
 
-.footer-links{
+.footer-about p{
 
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    margin-bottom:25px;
-    flex-wrap:wrap;
+    color:var(--text-light);
+    line-height:1.8;
+
+}
+
+.footer-links h3,
+.footer-social h3{
+
+    color:var(--text);
+    margin-bottom:20px;
+
+}
+
+.footer-links ul{
+
+    list-style:none;
+    padding:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
 
 }
 
 .footer-links a{
 
-    color:#38BDF8;
+    color:var(--text-light);
     text-decoration:none;
     transition:.3s;
 
@@ -897,38 +916,51 @@ nav a:hover{
 
 .footer-links a:hover{
 
-    color:white;
+    color:var(--primary);
 
 }
 
-.copyright{
+.footer-social a{
 
-    font-size:15px;
-    color:#64748B;
-
-}
-#topBtn{
-
-    position:fixed;
-    bottom:25px;
-    right:25px;
-    width:50px;
-    height:50px;
-    border:none;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:45px;
+    height:45px;
+    margin-right:12px;
     border-radius:50%;
-    background:var(--primary);
-    color:#0F172A;
-    font-size:22px;
-    cursor:pointer;
-    display:none;
+    background:var(--surface);
+    border:1px solid var(--border);
+    color:var(--primary);
     transition:.3s;
-    z-index:999;
 
 }
 
-#topBtn:hover{
+.footer-social a:hover{
 
-    transform:scale(1.1);
+    background:var(--primary);
+    color:#fff;
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid var(--border);
+    padding-top:25px;
+    text-align:center;
+    color:var(--text-muted);
+
+}
+
+@media(max-width:900px){
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+        text-align:center;
+
+    }
 
 }
 /*==============================
