@@ -1146,7 +1146,7 @@ nav a.active::after{
 .contact-icon i{
 
     font-size:34px;
-    color:var(--primary);
+    color:#fff;
 
 }
 
