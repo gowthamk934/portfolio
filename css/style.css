@@ -1125,6 +1125,11 @@ nav a.active::after{
     box-shadow:var(--shadow);
 
 }
+.contact-card:hover .contact-icon{
+
+    transform:scale(1.08) rotate(8deg);
+
+}
 
 .contact-icon{
 
