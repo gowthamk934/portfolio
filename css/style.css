@@ -1145,6 +1145,7 @@ nav a.active::after{
 
     background:linear-gradient(135deg,#3B82F6,#2563EB);
     box-shadow:0 10px 25px rgba(59,130,246,.35);
+    transition:.35s;
 
 }
 
