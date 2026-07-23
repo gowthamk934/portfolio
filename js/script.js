@@ -163,3 +163,29 @@ function typeEffect(){
 }
 
 typeEffect();
+/* ===============================
+   Creative Dropdown
+================================ */
+
+const creativeBtn = document.getElementById("creativeBtn");
+const creativeMenu = document.getElementById("creativeMenu");
+
+creativeBtn.addEventListener("click", function (e) {
+
+    e.stopPropagation();
+
+    creativeMenu.classList.toggle("show");
+
+});
+
+document.addEventListener("click", function () {
+
+    creativeMenu.classList.remove("show");
+
+});
+
+creativeMenu.addEventListener("click", function (e) {
+
+    e.stopPropagation();
+
+});
