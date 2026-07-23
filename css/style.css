@@ -449,7 +449,7 @@ nav a:hover{
 
 .project-card{
 
-    background:#111827;
+    background:var(--surface);
 
     padding:35px;
 
@@ -457,9 +457,15 @@ nav a:hover{
 
     margin-bottom:30px;
 
-    border-left:5px solid #38BDF8;
+    border-left:5px solid var(--primary);
 
     transition:.35s;
+
+    border-top:1px solid var(--border);
+
+    border-right:1px solid var(--border);
+
+    border-bottom:1px solid var(--border);
 
 }
 
@@ -467,7 +473,7 @@ nav a:hover{
 
     transform:translateY(-8px);
 
-    box-shadow:0 20px 40px rgba(56,189,248,.18);
+    box-shadow:var(--shadow);
 
 }
 
@@ -477,11 +483,13 @@ nav a:hover{
 
     margin-bottom:15px;
 
+    color:var(--text);
+
 }
 
 .project-tag{
 
-    color:#38BDF8;
+    color:var(--primary);
 
     font-weight:600;
 
@@ -491,7 +499,7 @@ nav a:hover{
 
 .project-card p{
 
-    color:#CBD5E1;
+    color:var(--text-light);
 
     line-height:1.8;
 
