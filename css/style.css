@@ -1498,7 +1498,7 @@ width:100%;
     top:0;
     left:0;
     width:0%;
-    height:4px;
+    height:3px;
     background:linear-gradient(90deg,#38BDF8,#2563EB);
     z-index:9999;
     transition:width .15s linear;
