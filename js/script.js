@@ -240,3 +240,4 @@ if (counter) {
     }, 20);
 
 }
+console.log("Script Loaded");
