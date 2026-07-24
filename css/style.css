@@ -1224,7 +1224,19 @@ grid-template-columns:1fr;
 .logo{
     font-size:24px;
 }
+.menu-toggle{
+    display:block;
+    background:none;
+    border:none;
+    color:var(--text);
+    font-size:32px;
+    cursor:pointer;
+}
 
+nav{
+    justify-content:space-between;
+    align-items:center;
+}
     nav ul{
         display:none;
     }
@@ -1306,6 +1318,11 @@ grid-template-columns:1fr;
 .contact-card{
     padding:25px;
 }
+}
+
+/* Normal/Desktop */
+.menu-toggle{
+    display:none;
 }
 /* ===============================
    Professional Quick Links
