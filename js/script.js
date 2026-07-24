@@ -212,10 +212,3 @@ if(menuToggle && navMenu){
     });
 
 }
-const navLinks = document.querySelectorAll("#navMenu a");
-
-navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        navMenu.classList.remove("active");
-    });
-});
