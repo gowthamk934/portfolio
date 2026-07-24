@@ -1486,3 +1486,6 @@ width:100%;
     transform:rotate(180deg);
 
 }
+.plus{
+    color: var(--primary);
+}
