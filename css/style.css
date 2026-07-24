@@ -559,6 +559,16 @@ nav.scrolled{
     margin-bottom:60px;
     position:relative;
 
+    opacity:0;
+    transform:translateX(-60px);
+    transition:all .6s ease;
+
+}
+.timeline-item.active{
+
+    opacity:1;
+    transform:translateX(0);
+
 }
 
 .year{
