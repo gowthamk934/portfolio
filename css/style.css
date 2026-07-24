@@ -1237,9 +1237,26 @@ nav{
     justify-content:space-between;
     align-items:center;
 }
-    nav ul{
-        display:none;
-    }
+  nav ul{
+    display:none;
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:var(--bg);
+    flex-direction:column;
+    text-align:center;
+    padding:20px 0;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+nav ul.active{
+    display:flex;
+}
+
+nav ul li{
+    margin:15px 0;
+}
 
      .hero{
     flex-direction:column-reverse;
