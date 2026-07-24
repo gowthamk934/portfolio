@@ -1489,3 +1489,17 @@ width:100%;
 .plus{
     color: var(--primary);
 }
+/* ===============================
+   Scroll Progress Bar
+================================= */
+
+#progress-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:4px;
+    background:linear-gradient(90deg,#38BDF8,#2563EB);
+    z-index:9999;
+    transition:width .15s linear;
+}
