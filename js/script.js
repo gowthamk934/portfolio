@@ -212,3 +212,4 @@ if(menuToggle && navMenu){
     });
 
 }
+alert("script.js loaded");
