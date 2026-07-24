@@ -186,6 +186,11 @@ nav.scrolled{
 
 }
 
+.hero-buttons .btn{
+    width:100%;
+    max-width:250px;
+}
+
 .primary-btn:hover{
 
     transform:translateY(-4px);
@@ -1212,18 +1217,23 @@ grid-template-columns:1fr;
 
 @media (max-width:768px){
 
-    nav{
-        padding:15px 20px;
-    }
+  nav{
+    padding:15px 18px;
+}
+
+.logo{
+    font-size:24px;
+}
 
     nav ul{
         display:none;
     }
 
-    .hero{
-        flex-direction:column-reverse;
-        text-align:center;
-        padding:120px 20px 60px;
+     .hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:110px 20px 70px;
+    gap:40px;
     }
 
     .hero-left,
@@ -1232,7 +1242,7 @@ grid-template-columns:1fr;
     }
 
     .photo-box img{
-        width:260px;
+    width:230px;
     }
 
     .hero-buttons{
@@ -1260,6 +1270,18 @@ grid-template-columns:1fr;
     .footer{
         padding:40px 20px;
     }
+   .hero-left h1{
+    font-size:42px;
+    line-height:1.2;
+}
+
+.hero-left p{
+    font-size:16px;
+}
+
+.hero-stats{
+    justify-content:center;
+}
 }
 /* ===============================
    Professional Quick Links
