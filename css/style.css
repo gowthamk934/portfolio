@@ -1231,7 +1231,26 @@ grid-template-columns:1fr;
 }
 
 .logo{
-    font-size:24px;
+    font-size:18px;
+    white-space:nowrap;
+}
+   nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display:none !important;
+}
+
+.menu-toggle{
+    display:block !important;
+    font-size:30px;
+    background:none;
+    border:none;
+    color:white;
+    cursor:pointer;
 }
 .menu-toggle{
     display:block;
