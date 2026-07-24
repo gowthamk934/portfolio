@@ -1216,6 +1216,7 @@ grid-template-columns:1fr;
 .menu-toggle{
     display:none;
 }
+
 @media (max-width:768px){
 
 
