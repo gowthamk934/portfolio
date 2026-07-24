@@ -55,23 +55,6 @@ nav{
     color:var(--primary);
 }
 
-nav ul{
-    display:none !important;
-    position:absolute;
-    top:65px;
-    left:0;
-    width:100%;
-    background:var(--bg);
-    flex-direction:column;
-    align-items:center;
-    padding:20px 0;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
-}
-
-nav ul.active{
-    display:flex !important;
-}
-
 nav a{
 
     position:relative;
