@@ -1215,42 +1215,24 @@ grid-template-columns:1fr;
 
 @media (max-width:768px){
 
-  nav{
-    padding:15px 18px;
-}
 
 .logo{
     font-size:18px;
     white-space:nowrap;
 }
-   nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-nav ul{
-    display:none !important;
-}
-
 .menu-toggle{
     display:block !important;
-    font-size:30px;
-    background:none;
-    border:none;
-    color:white;
-    cursor:pointer;
-}
-.menu-toggle{
-    display:block;
     background:none;
     border:none;
     color:var(--text);
     font-size:32px;
     cursor:pointer;
+    z-index:1001;
 }
 
 nav{
+    padding:15px 18px;
+    display:flex;
     justify-content:space-between;
     align-items:center;
 }
@@ -1262,6 +1244,7 @@ nav{
     width:100%;
     background:var(--bg);
     flex-direction:column;
+    align-items:center;
     text-align:center;
     padding:20px 0;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
@@ -1354,10 +1337,7 @@ nav ul li{
 }
 }
 
-/* Normal/Desktop */
-.menu-toggle{
-    display:none;
-}
+
 /* ===============================
    Professional Quick Links
 ==================================*/
