@@ -1282,6 +1282,30 @@ grid-template-columns:1fr;
 .hero-stats{
     justify-content:center;
 }
+   section{
+    padding:70px 20px;
+}
+
+.container{
+    width:100%;
+}
+
+.impact-grid,
+.expertise-grid,
+.program-grid,
+.achievement-grid,
+.contact-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.impact-card,
+.expertise-card,
+.program-card,
+.achievement-card,
+.contact-card{
+    padding:25px;
+}
 }
 /* ===============================
    Professional Quick Links
