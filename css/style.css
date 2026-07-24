@@ -1212,7 +1212,10 @@ grid-template-columns:1fr;
 }
 }
 /* ================= MOBILE RESPONSIVE ================= */
-
+/* Desktop Only */
+.menu-toggle{
+    display:none;
+}
 @media (max-width:768px){
 
 
