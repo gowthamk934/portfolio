@@ -332,15 +332,18 @@ nav.scrolled{
     padding:40px 25px;
     border-radius:18px;
     text-align:center;
-    transition:.3s;
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease;
     border:1px solid var(--border);
 
 }
 
 .impact-card:hover{
 
-    transform:translateY(-10px);
-    box-shadow:var(--shadow);
+    transform:translateY(-12px) scale(1.02);
+    box-shadow:0 20px 40px rgba(56,189,248,.18);
     border-color:var(--primary);
 
 }
