@@ -1238,22 +1238,18 @@ nav{
     justify-content:space-between;
     align-items:center;
 }
-  nav ul{
-    display:none;
-    position:absolute;
-    top:70px;
-    left:0;
-    width:100%;
-    background:var(--bg);
+ nav ul{
+    display:flex;
     flex-direction:column;
-    align-items:center;
-    text-align:center;
-    padding:20px 0;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:max-height .35s ease, opacity .35s ease;
 }
 
 nav ul.active{
-    display:flex;
+    max-height:350px;
+    opacity:1;
 }
 
 nav ul li{
