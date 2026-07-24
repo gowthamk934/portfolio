@@ -212,32 +212,3 @@ if(menuToggle && navMenu){
     });
 
 }
-/* ===============================
-   Animated Counter
-================================= */
-
-const counter = document.getElementById("counter");
-
-if (counter) {
-
-    const target = 230000;
-    const duration = 2000; // 2 seconds
-    const increment = target / (duration / 20);
-
-    let current = 0;
-
-    const timer = setInterval(() => {
-
-        current += increment;
-
-        if (current >= target) {
-            counter.innerText = target.toLocaleString();
-            clearInterval(timer);
-        } else {
-            counter.innerText = Math.floor(current).toLocaleString();
-        }
-
-    }, 20);
-
-}
-console.log("Script Loaded");
