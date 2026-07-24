@@ -54,6 +54,12 @@ nav{
 .logo span{
     color:var(--primary);
 }
+nav ul{
+    display:flex;
+    gap:35px;
+    list-style:none;
+    align-items:center;
+}
 
 nav a{
 
