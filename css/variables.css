@@ -4,12 +4,12 @@
 
 :root{
 
-    --bg:#ffffff;
-    --surface:#2563EB;
+    --bg:#000000;
+    --surface:#113687;
     --surface-2:#161B22;
 
     --text:#ffffff;
-    --text-light:#CBD5E1;
+    --text-light:#2f80d0;
     --text-muted:#94A3B8;
 
     --primary:#38BDF8;
@@ -17,7 +17,7 @@
 
     --border:rgba(255,255,255,.08);
 
-    --footer:#0B1120;
+    --footer:#113687;
 
     --shadow:0 20px 40px rgba(56,189,248,.18);
 
