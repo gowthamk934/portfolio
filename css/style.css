@@ -640,7 +640,7 @@ nav.scrolled{
 
 .expertise-card{
 
-    background:var(--surface);
+    background:linear-gradient(135deg,#2563EB,#1D4ED8);
     border-radius:18px;
     padding:35px;
     text-align:center;
