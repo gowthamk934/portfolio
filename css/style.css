@@ -33,8 +33,8 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:rgba(15,23,42,.75);
-    backdrop-filter:blur(14px);
+    background:rgba(255, 255, 255, 0.75);
+    backdrop-filter:blur(20px);
     -webkit-backdrop-filter:blur(14px);
     border-bottom:1px solid rgba(255,255,255,.08);
     z-index:1000;
@@ -47,7 +47,7 @@ nav{
     font-size:32px;
     font-weight:800;
     letter-spacing:2px;
-    color:var(--text);
+    color:black;
 
 }
 
@@ -64,7 +64,7 @@ nav ul{
 nav a{
 
     position:relative;
-    color:var(--text);
+    color:black;
     text-decoration:none;
     font-size:17px;
     font-weight:500;
@@ -73,7 +73,7 @@ nav a{
 }
 
 nav a:hover{
-    color:var(--primary);
+    color:#ffffff;
 }
 nav.scrolled{
 
@@ -136,7 +136,7 @@ nav.scrolled{
     font-size:64px;
 
     line-height:1.1;
-    color:#000000;
+    color:#ffffff;
 
     margin-top:10px;
 
@@ -146,7 +146,7 @@ nav.scrolled{
 
     margin-top:30px;
 
-    color:#000000;
+    color:#ffffff;
 
     font-size:28px;
 
@@ -233,7 +233,7 @@ nav.scrolled{
     height:320px;
     border-radius:50%;
     overflow:hidden;
-    border:6px solid #38BDF8;
+    border:6px solid #16e6cd;
     box-shadow:0 0 22px rgba(56,189,248,.30);
     margin:auto;
 
@@ -333,9 +333,9 @@ nav.scrolled{
 
     background:linear-gradient(
 135deg,
-#3B82F6 0%,
-#2563EB 50%,
-#1D4ED8 100%
+#113687 0%,
+#113687  50%,
+#113687  100%
 );
     padding:40px 25px;
     border-radius:18px;
@@ -351,7 +351,7 @@ nav.scrolled{
 .impact-card:hover{
 
     transform:translateY(-12px) scale(1.02);
-    box-shadow:0 20px 40px rgba(56,189,248,.18);
+    box-shadow:0 20px 40px rgba(242, 243, 243, 0.18);
     border-color:var(--primary);
 
 }
@@ -359,7 +359,7 @@ nav.scrolled{
 .impact-card h3{
 
     font-size:48px;
-    color:var(--primary);
+    color:#ffffff;
     margin-bottom:15px;
 
 }
@@ -367,7 +367,7 @@ nav.scrolled{
 .impact-card p{
 
     font-size:20px;
-    color:var(--text-light);
+    color:#ffffff;
 
 }
 /*==============================
@@ -414,7 +414,7 @@ nav.scrolled{
 
     min-width:180px;
 
-    color:var(--primary);
+    color:#f5c448;
 
     font-size:22px;
 
@@ -428,13 +428,13 @@ nav.scrolled{
 
     margin-bottom:8px;
 
-    color:var(--text);
+    color:#ffffff;
 
 }
 
 .experience-content h4{
 
-    color:var(--text-muted);
+    color:white;
 
     margin-bottom:20px;
 
@@ -452,7 +452,7 @@ nav.scrolled{
 
     margin-bottom:12px;
 
-    color:var(--text-light);
+    color:#ffffff;
 
     line-height:1.7;
 
@@ -509,7 +509,7 @@ nav.scrolled{
 
 .project-tag{
 
-    color:var(--primary);
+    color:#ffffff;
 
     font-weight:600;
 
@@ -519,7 +519,7 @@ nav.scrolled{
 
 .project-card p{
 
-    color:var(--text-light);
+    color:#ffffff;
 
     line-height:1.8;
 
@@ -551,7 +551,7 @@ nav.scrolled{
 
     line-height:1.7;
 
-    color:#000000;
+    color:#ffffff;
 
 }
 /*==============================
@@ -586,8 +586,8 @@ nav.scrolled{
 
 .year{
 
-    background:rgba(37,99,235,.10);
-    color:var(--primary);
+    background:rgba(22, 221, 122, 0.1);
+    color:#e6bb44;
     padding:10px 16px;
     border-radius:12px;
     font-weight:700;
@@ -624,7 +624,7 @@ nav.scrolled{
 
 .content p{
 
-    color:var(--text-light);
+    color:#ffffff;
 
 }
 /*==============================
@@ -650,9 +650,9 @@ nav.scrolled{
 
     background: linear-gradient(
     135deg,
-    #3B82F6 0%,
-    #2563EB 45%,
-    #1D4ED8 100%
+    #113687  0%,
+    #113687  45%,
+    #113687  100%
 );
     border-radius:18px;
     padding:35px;
@@ -748,7 +748,7 @@ nav.scrolled{
     font-size:22px;
     
     line-height:1.8;
-    color:#000000;
+    color:#ffffff;
     max-width:700px;
 
 }
@@ -816,7 +816,7 @@ nav.scrolled{
 .program-card li{
 
     margin-bottom:12px;
-    color:var(--text-light);
+    color:#ffffff;
     line-height:1.6;
 
 }
@@ -886,7 +886,7 @@ nav.scrolled{
 
 .achievement-card p{
 
-    color:var(--text-light);
+    color:#ffffff;
     line-height:1.7;
 
 }
@@ -924,6 +924,10 @@ footer{
     line-height:1.8;
 
 }
+.linkedin { color:#0A66C2; }
+.email { color:#EA4335; }
+.github { color:#181717; }
+
 
 .footer-links h3,
 .footer-social h3{
@@ -1137,7 +1141,7 @@ nav a.active::after{
 
     max-width:700px;
     margin:20px auto 35px;
-    color:var(--text-light);
+    color:#ffffff;
     line-height:1.8;
 
 }
@@ -1174,6 +1178,9 @@ nav a.active::after{
     transform:scale(1.08) rotate(8deg);
 
 }
+.contact-card p{
+    color:#fff;
+}
 
 .contact-icon{
 
@@ -1193,7 +1200,8 @@ nav a.active::after{
 
 }
 
-.contact-icon i{
+
+ i{
 
     font-size:34px;
     color:#fff;
@@ -1210,7 +1218,7 @@ nav a.active::after{
 
 .contact-card p{
 
-    color:var(--text-light);
+    color:#ffffff;
     margin-bottom:30px;
     line-height:1.7;
 
