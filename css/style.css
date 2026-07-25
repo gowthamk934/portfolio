@@ -328,7 +328,12 @@ nav.scrolled{
 
 .impact-card{
 
-    background:var(--surface);
+    background:linear-gradient(
+135deg,
+#3B82F6 0%,
+#2563EB 50%,
+#1D4ED8 100%
+);
     padding:40px 25px;
     border-radius:18px;
     text-align:center;
