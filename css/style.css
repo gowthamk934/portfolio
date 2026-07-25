@@ -202,7 +202,9 @@ nav.scrolled{
 
     border:2px solid #38BDF8;
 
-    color:white;
+    color:black;
+   
+    background:var(--primary);
 
     text-decoration:none;
 
