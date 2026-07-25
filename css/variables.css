@@ -4,11 +4,11 @@
 
 :root{
 
-    --bg:#000000;
+    --bg:#ffffff;
     --surface:#2563EB;
     --surface-2:#161B22;
 
-    --text:#000000;
+    --text:#ffffff;
     --text-light:#CBD5E1;
     --text-muted:#94A3B8;
 
@@ -30,11 +30,11 @@
 
 [data-theme="light"]{
 
-    --bg:#000000;
+    --bg:#ffffff;
     --surface:#2563EB;
-    --surface-2:#000000;
+    --surface-2:#ffffff;
 
-    --text:#000000;
+    --text:#ffffff;
     --text-light:#CBD5E1;
     --text-muted:#64748B;
 
