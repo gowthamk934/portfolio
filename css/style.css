@@ -1122,7 +1122,7 @@ nav a.active::after{
 .contact .section-subtitle{
 
     max-width:700px;
-    margin:20px auto 60px;
+    margin:20px auto 35px;
     color:var(--text-light);
     line-height:1.8;
 
