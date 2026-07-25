@@ -322,7 +322,7 @@ nav.scrolled{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:30px;
-    margin-top:50px;
+    margin-top:30px;
 
 }
 
@@ -556,7 +556,7 @@ nav.scrolled{
 
     display:flex;
     gap:20px;
-    margin-bottom:60px;
+    margin-bottom:35px;
     position:relative;
 
     opacity:0;
@@ -1137,7 +1137,7 @@ nav a.active::after{
     border:1px solid var(--border);
     border-radius:20px;
     padding:35px 25px;
-    min-height:280px;
+    min-height:240px;
     transition:.35s;
     text-align:center;
 
