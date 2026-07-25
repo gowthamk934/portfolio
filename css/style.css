@@ -218,9 +218,9 @@ nav.scrolled{
 
 .secondary-btn:hover{
 
-    background:var(--primary);
+   transform:translateY(-4px);
 
-    color:#0F172A;
+    box-shadow:0 15px 30px rgba(56,189,248,.35);
 
 }
 
