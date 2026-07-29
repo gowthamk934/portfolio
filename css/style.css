@@ -333,9 +333,9 @@ nav.scrolled{
 
     background:linear-gradient(
 135deg,
-#113687 0%,
-#113687  50%,
-#113687  100%
+#2a81af 0%,
+#2a81af  50%,
+#2a81af  100%
 );
     padding:40px 25px;
     border-radius:18px;
@@ -386,7 +386,7 @@ nav.scrolled{
 
     gap:40px;
 
-    background:var(--surface);
+    background:#2a81af;
 
     padding:40px;
 
@@ -421,6 +421,7 @@ nav.scrolled{
     font-weight:700;
 
 }
+
 
 .experience-content h3{
 
@@ -469,7 +470,7 @@ nav.scrolled{
 
 .project-card{
 
-    background:var(--surface);
+    background:#2a81af;
 
     padding:28px;
 
@@ -598,7 +599,7 @@ nav.scrolled{
 .content{
 
     position:relative;
-    background:var(--surface);
+    background:#2a81af;
     padding:30px;
     border-radius:15px;
     width:100%;
@@ -650,9 +651,9 @@ nav.scrolled{
 
     background: linear-gradient(
     135deg,
-    #113687  0%,
-    #113687  45%,
-    #113687  100%
+    #2a81af  0%,
+    #2a81af  45%,
+    #2a81af  100%
 );
     border-radius:18px;
     padding:35px;
@@ -773,7 +774,7 @@ nav.scrolled{
 
 .program-card{
 
-    background:var(--surface);
+    background:#2a81af;
     padding:35px;
     border-radius:18px;
     border-top:4px solid var(--primary);
@@ -795,7 +796,7 @@ nav.scrolled{
 
     font-size:28px;
     margin-bottom:10px;
-    color:var(--text);
+    color:#eec429;
 
 }
 
@@ -851,7 +852,7 @@ nav.scrolled{
 
 .achievement-card{
 
-    background:var(--surface);
+    background:#2a81af;
     border:1px solid var(--border);
     border-radius:18px;
     padding:35px;
@@ -1156,7 +1157,7 @@ nav a.active::after{
 
 .contact-card{
 
-    background:var(--surface);
+    background:#2a81af;
     border:1px solid var(--border);
     border-radius:20px;
     padding:35px 25px;
@@ -1540,7 +1541,7 @@ width:100%;
     width:0%;
     height:3px;
     box-shadow:0 0 12px rgba(56,189,248,.6);
-    background:linear-gradient(90deg,#38BDF8,#2563EB);
+    background:linear-gradient(90deg,#38BDF8,#23c43b);
     z-index:9999;
     transition:width .15s linear;
 }
