@@ -2,50 +2,68 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Gowtham Krishnan | Portfolio</title>
+    <title>Gowtham Krishnan | EdTech Operations Specialist &amp; LMS Administrator</title>
+
+    <meta name="description" content="Gowtham Krishnan — EdTech Operations Specialist and LMS Administrator with 9+ years of experience supporting Oracle University and IBM Career Education learning programs, process automation, and learner success.">
+
+    <meta property="og:title" content="Gowtham Krishnan | Portfolio">
+    <meta property="og:description" content="EdTech Operations Specialist • LMS Administrator • Automation Enthusiast">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/gowtham.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <div id="progress-bar"></div>
-    <button id="topBtn">↑</button>
+    <button id="topBtn" aria-label="Scroll to top">↑</button>
 
 
     <!-- ================= NAVBAR ================= -->
 
    <nav>
 
-    <div class="logo">Gowtham K</div>
+    <div class="logo">Gowtham <span>K</span></div>
 
-    <ul id="navMenu">
+    <div class="nav-right">
 
-        <li><a href="#home">Home</a></li>
+        <ul id="navMenu">
 
-        <li><a href="#about">About</a></li>
+            <li><a href="#home">Home</a></li>
 
-        <li><a href="#journey">Journey</a></li>
+            <li><a href="#about">About</a></li>
 
-        <li><a href="#programs">Programs</a></li>
+            <li><a href="#journey">Journey</a></li>
 
-        <li><a href="#contact">Contact</a></li>
+            <li><a href="#programs">Programs</a></li>
 
-    </ul>
-       <button class="menu-toggle" id="menuToggle">&#9776;</button>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">&#9776;</button>
+
+    </div>
 
 </nav>
 
@@ -103,11 +121,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                     <div class="dropdown-content" id="creativeMenu">
 
                         <a href="https://www.instagram.com/g_creative_works/" target="_blank">
-                            🎨 G Creative Works
+                            <i class="fa-brands fa-instagram"></i> G Creative Works
                         </a>
 
                         <a href="https://www.instagram.com/g_creation432/" target="_blank">
-                            🖼️ G Creation432
+                            <i class="fa-brands fa-instagram"></i> G Creation432
                         </a>
 
                     </div>
@@ -178,32 +196,32 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     <div class="expertise-grid">
 
         <div class="expertise-card">
-            <h3>🎓</h3>
+            <h3><i class="fa-solid fa-graduation-cap"></i></h3>
             <h4>Learning Operations</h4>
         </div>
 
         <div class="expertise-card">
-            <h3>💻</h3>
+            <h3><i class="fa-solid fa-display"></i></h3>
             <h4>LMS Administration</h4>
         </div>
 
         <div class="expertise-card">
-            <h3>⚙️</h3>
+            <h3><i class="fa-solid fa-gears"></i></h3>
             <h4>Process Automation</h4>
         </div>
 
         <div class="expertise-card">
-            <h3>📊</h3>
+            <h3><i class="fa-solid fa-chart-column"></i></h3>
             <h4>Program Management</h4>
         </div>
 
         <div class="expertise-card">
-            <h3>🤝</h3>
+            <h3><i class="fa-solid fa-handshake"></i></h3>
             <h4>Stakeholder Management</h4>
         </div>
 
         <div class="expertise-card">
-            <h3>📈</h3>
+            <h3><i class="fa-solid fa-chart-line"></i></h3>
             <h4>Reporting & Analytics</h4>
         </div>
 
@@ -284,9 +302,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </section>
 <section class="about reveal" id="about">
-    <center>
     <h2 class="section-title">About Me</h2>
-    </center>
     <p class="about-text">
 
         Learning Operations and Program Management professional with 9+ years of
@@ -472,17 +488,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     <div class="achievement-grid">
 
         <div class="achievement-card">
-            <h3>🏆 Top Performer</h3>
+            <div class="achievement-icon"><i class="fa-solid fa-trophy"></i></div>
+            <h3>Top Performer</h3>
             <p>Recognized for outstanding contribution and consistent performance.</p>
         </div>
 
         <div class="achievement-card">
-            <h3>🤝 Pillar of Support</h3>
+            <div class="achievement-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+            <h3>Pillar of Support</h3>
             <p>Recognized for providing exceptional support to learners, trainers, and institutions.</p>
         </div>
 
         <div class="achievement-card">
-            <h3>⭐ Dynamic Contributor</h3>
+            <div class="achievement-icon"><i class="fa-solid fa-star"></i></div>
+            <h3>Dynamic Contributor</h3>
             <p>Awarded for driving initiatives, improving workflows, and contributing beyond assigned responsibilities.</p>
         </div>
 
@@ -568,20 +587,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </p>
 
     <div class="footer-links">
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/gowtham-k-36a571317/" target="_blank" style="color:#0A66C2;">
-  <i class="fa-brands fa-linkedin"></i> LinkedIn
-</a>&emsp;
 
-<!-- Email -->
-<a href="mailto:gowthamkrishnan934@gmail.com;" style="color:#35ea56;">
-  <i class="fa-solid fa-envelope"></i> Email
-</a>&emsp;
+        <a href="https://www.linkedin.com/in/gowtham-k-36a571317/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
 
-<!-- GitHub -->
-<a href="https://github.com/gowthamk934" target="_blank" style="color:#f7f5f5;">
-  <i class="fa-brands fa-github"></i> GitHub
-</a>&emsp;
+        <a href="mailto:gowthamkrishnan934@gmail.com">
+            <i class="fa-solid fa-envelope"></i> Email
+        </a>
+
+        <a href="https://github.com/gowthamk934" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
 
     </div>
 
