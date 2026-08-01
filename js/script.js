@@ -183,6 +183,11 @@ creativeBtn.addEventListener("click", function (e) {
 
     creativeBtn.classList.toggle("active");
 
+    creativeBtn.setAttribute(
+        "aria-expanded",
+        creativeMenu.classList.contains("show") ? "true" : "false"
+    );
+
 });
 
 document.addEventListener("click", function () {
@@ -190,6 +195,8 @@ document.addEventListener("click", function () {
     creativeMenu.classList.remove("show");
 
     creativeBtn.classList.remove("active");
+
+    creativeBtn.setAttribute("aria-expanded", "false");
 
 });
 
@@ -208,6 +215,22 @@ if(menuToggle && navMenu){
     menuToggle.addEventListener("click", () => {
 
         navMenu.classList.toggle("active");
+
+        menuToggle.setAttribute(
+            "aria-expanded",
+            navMenu.classList.contains("active") ? "true" : "false"
+        );
+
+    });
+
+    document.addEventListener("keydown", (e) => {
+
+        if(e.key === "Escape" && navMenu.classList.contains("active")){
+
+            navMenu.classList.remove("active");
+            menuToggle.setAttribute("aria-expanded", "false");
+
+        }
 
     });
 
