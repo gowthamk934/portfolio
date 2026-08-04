@@ -156,6 +156,19 @@ nav a.active::after{
 
 }
 
+/* ✨ Signature Nav Item */
+.nav-journey-highlight {
+    color: var(--primary) !important;
+    font-weight: 600 !important;
+}
+
+.pj-nav-star {
+    font-style: normal;
+    font-size: 11px;
+    vertical-align: super;
+    margin-right: 2px;
+}
+
 /* Theme toggle */
 .theme-toggle{
 
