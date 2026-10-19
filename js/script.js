@@ -2,7 +2,7 @@ const counter = document.getElementById("counter");
 
 let count = 0;
 
-const target = 230000;
+const target = 260000;
 
 const speed = 50;
 
